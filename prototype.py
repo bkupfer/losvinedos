@@ -20,7 +20,7 @@ t = 1 # avg. estimated time per 1 item
 print "Generando lista tentativa de items para toma de inventario"
 
 # Open database connection
-db = MySQLdb.connect("localhost","root","rqfscx","losvinedos")
+db = MySQLdb.connect("localhost","root","encryption","losvinedos")
 cursor = db.cursor()
 # score_increase = 1
 output = ""
